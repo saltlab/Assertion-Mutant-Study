@@ -1,4 +1,4 @@
-# Data-for-Analyzing-the-Influence-of-Assertions-and-Mutants-on-Test-Suite-Effectiveness
+# Data for Factors Influencing Test Effectiveness
 Experimental data collected for paper "Fault Type and Location Influence Measuring Test Suite Effectiveness"
 
 Folder : Assertions vs. detectable mutants matrix.
