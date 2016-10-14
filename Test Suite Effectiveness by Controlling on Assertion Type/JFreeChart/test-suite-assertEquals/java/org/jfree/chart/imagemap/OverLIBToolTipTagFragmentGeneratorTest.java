@@ -1,0 +1,17 @@
+package org.jfree.chart.imagemap;
+
+import static org.junit.Assert.assertEquals;
+import org.junit.Test;
+
+/**
+ * Tests for the {@link OverLIBToolTipTagFragmentGenerator} class.
+ */
+public class OverLIBToolTipTagFragmentGeneratorTest {
+
+    /**
+     * Some checks for the generateURLFragment() method.
+     */
+    public void testGenerateURLFragment() {
+        OverLIBToolTipTagFragmentGenerator g = new OverLIBToolTipTagFragmentGenerator();
+    }
+}

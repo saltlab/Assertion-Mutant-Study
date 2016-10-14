@@ -1,0 +1,214 @@
+[INFO] 
+NOTE: Maven is executing in offline mode. Any artifacts not already in your local
+repository will be inaccessible.
+
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Building JFreeChart
+[INFO]    task-segment: [clean, install]
+[INFO] ------------------------------------------------------------------------
+[INFO] [clean:clean {execution: default-clean}]
+[INFO] Deleting /home/cheng/research/ATSE/jfreechart-new-origin/subject-project/target
+[INFO] [enforcer:enforce {execution: enforce-maven}]
+[INFO] [resources:resources {execution: default-resources}]
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 39 resources
+[INFO] [compiler:compile {execution: default-compile}]
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 644 source files to /home/cheng/research/ATSE/jfreechart-new-origin/subject-project/target/classes
+[WARNING] /home/cheng/research/ATSE/jfreechart-new-origin/subject-project/src/main/java/org/jfree/chart/editor/DefaultColorBarEditor.java: Some input files use or override a deprecated API.
+[WARNING] /home/cheng/research/ATSE/jfreechart-new-origin/subject-project/src/main/java/org/jfree/chart/editor/DefaultColorBarEditor.java: Recompile with -Xlint:deprecation for details.
+[WARNING] /home/cheng/research/ATSE/jfreechart-new-origin/subject-project/src/main/java/org/jfree/chart/JFreeChart.java: Some input files use unchecked or unsafe operations.
+[WARNING] /home/cheng/research/ATSE/jfreechart-new-origin/subject-project/src/main/java/org/jfree/chart/JFreeChart.java: Recompile with -Xlint:unchecked for details.
+[INFO] [resources:testResources {execution: default-testResources}]
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/cheng/research/ATSE/jfreechart-new-origin/subject-project/src/test/resources
+[INFO] [compiler:testCompile {execution: default-testCompile}]
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 365 source files to /home/cheng/research/ATSE/jfreechart-new-origin/subject-project/target/test-classes
+[WARNING] /home/cheng/research/ATSE/jfreechart-new-origin/subject-project/src/test/java/org/jfree/chart/axis/ColorBarTest.java: Some input files use or override a deprecated API.
+[WARNING] /home/cheng/research/ATSE/jfreechart-new-origin/subject-project/src/test/java/org/jfree/chart/axis/ColorBarTest.java: Recompile with -Xlint:deprecation for details.
+[WARNING] /home/cheng/research/ATSE/jfreechart-new-origin/subject-project/src/test/java/org/jfree/chart/plot/CombinedRangeCategoryPlotTest.java: Some input files use unchecked or unsafe operations.
+[WARNING] /home/cheng/research/ATSE/jfreechart-new-origin/subject-project/src/test/java/org/jfree/chart/plot/CombinedRangeCategoryPlotTest.java: Recompile with -Xlint:unchecked for details.
+[INFO] [surefire:test {execution: default-test}]
+[INFO] Surefire report directory: /home/cheng/research/ATSE/jfreechart-new-origin/subject-project/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.jfree.chart.plot.CompassPlotTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.158 sec
+Running org.jfree.chart.plot.CombinedRangeCategoryPlotTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running org.jfree.chart.annotations.CategoryTextAnnotationTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.jfree.chart.axis.SegmentedTimelineTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 sec
+Running org.jfree.chart.axis.AxisTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+Running org.jfree.chart.axis.CategoryLabelPositionsTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running org.jfree.chart.renderer.xy.XYAreaRenderer2Test
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.121 sec
+Running org.jfree.chart.renderer.xy.StackedXYAreaRendererTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running org.jfree.chart.renderer.xy.XYBarRendererTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running org.jfree.chart.renderer.xy.XYLineAndShapeRendererTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Running org.jfree.chart.renderer.AbstractRendererTest
+Tests run: 25, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 sec
+Running org.jfree.chart.renderer.RendererUtilitiesTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running org.jfree.chart.renderer.category.StackedBarRenderer3DTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running org.jfree.chart.title.TextTitleTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec
+Running org.jfree.chart.title.ImageTitleTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 sec
+Running org.jfree.chart.block.GridArrangementTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running org.jfree.chart.block.BorderArrangementTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running org.jfree.data.xy.DefaultXYDatasetTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+Running org.jfree.data.xy.XYSeriesCollectionTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.jfree.data.xy.XIntervalSeriesTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running org.jfree.data.xy.XYIntervalSeriesTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.jfree.data.xy.TableXYDatasetTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.jfree.data.xy.XYSeriesTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.jfree.data.statistics.DefaultStatisticalCategoryDatasetTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running org.jfree.data.statistics.BoxAndWhiskerCalculatorTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.jfree.data.gantt.TaskSeriesCollectionTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running org.jfree.data.time.QuarterTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running org.jfree.data.time.YearTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running org.jfree.data.time.HourTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running org.jfree.data.time.MillisecondTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running org.jfree.data.time.WeekTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 sec
+Running org.jfree.data.time.MinuteTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Running org.jfree.data.general.DatasetUtilitiesTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running org.jfree.data.RangeTypeTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.jfree.data.ComparableObjectItemTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.jfree.data.DefaultKeyedValueTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.jfree.data.ComparableObjectSeriesTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.jfree.data.category.SlidingCategoryDatasetTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.jfree.data.RangeTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+
+Results :
+
+Tests run: 74, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] [jar:jar {execution: default-jar}]
+[INFO] Building jar: /home/cheng/research/ATSE/jfreechart-new-origin/subject-project/target/jfreechart-1.5.0-SNAPSHOT.jar
+[INFO] [install:install {execution: default-install}]
+[INFO] Installing /home/cheng/research/ATSE/jfreechart-new-origin/subject-project/target/jfreechart-1.5.0-SNAPSHOT.jar to /home/cheng/.m2/repository/org/jfree/jfreechart/1.5.0-SNAPSHOT/jfreechart-1.5.0-SNAPSHOT.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESSFUL
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 14 seconds
+[INFO] Finished at: Sun Aug 14 05:56:02 PDT 2016
+[INFO] Final Memory: 47M/591M
+[INFO] ------------------------------------------------------------------------
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Building JFreeChart
+[INFO]    task-segment: [org.pitest:pitest-maven:mutationCoverage]
+[INFO] ------------------------------------------------------------------------
+[INFO] [pitest:mutationCoverage {execution: default-cli}]
+[INFO] Found plugin : Default csv report plugin
+[INFO] Found plugin : Default xml report plugin
+[INFO] Found plugin : Default html report plugin
+[INFO] Found plugin : Default limit mutations plugin
+[INFO] Found plugin : Kotlin junk mutations filter
+[INFO] Found shared classpath plugin : Default mutation engine
+[INFO] Adding org.pitest:pitest to SUT classpath
+[INFO] Mutating from /home/cheng/research/ATSE/jfreechart-new-origin/subject-project/target/classes
+[INFO] Defaulting to group id (org.jfree*)
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/================================================================================
+- Timings
+================================================================================
+> scan classpath : < 1 second
+> coverage and dependency analysis : 2 seconds
+> build mutation tests : 1 seconds
+> run mutation analysis : 2 minutes and 42 seconds
+--------------------------------------------------------------------------------
+> Total  : 2 minutes and 46 seconds
+--------------------------------------------------------------------------------
+================================================================================
+- Statistics
+================================================================================
+>> Generated 36018 mutations Killed 1059 (3%)
+>> Ran 3704 tests (0.1 tests per mutation)
+================================================================================
+- Mutators
+================================================================================
+> org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator
+>> Generated 1964 Killed 66 (3%)
+> KILLED 65 SURVIVED 97 TIMED_OUT 1 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 1801 
+--------------------------------------------------------------------------------
+> org.pitest.mutationtest.engine.gregor.mutators.IncrementsMutator
+>> Generated 636 Killed 46 (7%)
+> KILLED 46 SURVIVED 5 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 585 
+--------------------------------------------------------------------------------
+> org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator
+>> Generated 9064 Killed 93 (1%)
+> KILLED 93 SURVIVED 562 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 8409 
+--------------------------------------------------------------------------------
+> org.pitest.mutationtest.engine.gregor.mutators.InvertNegsMutator
+>> Generated 135 Killed 3 (2%)
+> KILLED 3 SURVIVED 26 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 106 
+--------------------------------------------------------------------------------
+> org.pitest.mutationtest.engine.gregor.mutators.ReturnValsMutator
+>> Generated 7644 Killed 263 (3%)
+> KILLED 263 SURVIVED 111 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 7270 
+--------------------------------------------------------------------------------
+> org.pitest.mutationtest.engine.gregor.mutators.MathMutator
+>> Generated 5652 Killed 65 (1%)
+> KILLED 65 SURVIVED 120 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 5467 
+--------------------------------------------------------------------------------
+> org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator
+>> Generated 10923 Killed 523 (5%)
+> KILLED 522 SURVIVED 381 TIMED_OUT 1 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 10019 
+--------------------------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESSFUL
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2 minutes 50 seconds
+[INFO] Finished at: Sun Aug 14 05:58:54 PDT 2016
+[INFO] Final Memory: 37M/559M
+[INFO] ------------------------------------------------------------------------
